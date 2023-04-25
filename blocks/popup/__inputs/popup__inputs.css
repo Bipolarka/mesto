@@ -1,5 +1,5 @@
-.popup__inputs{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.popup__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
