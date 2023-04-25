@@ -10,7 +10,7 @@
 
 **Ссылка на сайт**
 
-* [Это ссылка на мой сайт в GitHub Pages]
+* [Это ссылка на мой сайт в GitHub Pages](https://bipolarka.github.io/mesto/)
 
 **Описание**
 
