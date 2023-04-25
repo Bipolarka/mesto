@@ -1,12 +1,14 @@
 .place__like{
     background-color: transparent;
-    outline: none;
     border: none;
     background-image: url('../../../images/svg_icons/heart2.svg');
     min-width: 22px;
+    /* не получается реализовать без min-width */
+    width: 22px;
     height: 19px;
     background-position: center;
     background-size: cover;
+    padding: 0;
 }
 
 .place__like:hover{

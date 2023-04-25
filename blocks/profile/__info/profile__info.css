@@ -3,12 +3,14 @@
     flex-direction: column;
     gap: 16px;
     justify-content: center;
-    max-width: 100%;
-    overflow: hidden;
+    max-width: 336px;
+    /* overflow: hidden;
     text-overflow: ellipsis;
     box-sizing: border-box;
     white-space: nowrap;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; */
+    box-sizing: border-box;
+    /* Так вот все свойства и использовал.. Какие еще нужно, не понимаю.. */
 }
 
 @media screen and (max-width: 549px){

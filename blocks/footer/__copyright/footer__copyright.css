@@ -11,7 +11,12 @@
 @media screen and (max-width: 549px){
     .footer__copyright{
         padding-bottom: 36px;
-        font-size: 14px;
-        line-height: 17px;
     }
+}
+
+@media screen and (max-width: 340px){
+  .footer__copyright{
+      font-size: 14px;
+      line-height: 17px;
+  }
 }

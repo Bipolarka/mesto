@@ -1,24 +1,30 @@
 .profile__changer{
     min-width: 24px;
     min-height: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 9px;
     background-color: transparent;
-    outline: none;
     padding: 0;
     box-sizing: border-box;
     border: 1px solid white;
+    cursor: pointer;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    /* это контейнер для кнопки, я по другому реализовал, так ведь не запрещено?  */
+    background-image: url('../../../images/svg_icons/pen1.svg');
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 .profile__changer:hover{
-    opacity: 60%;
-    cursor: pointer;
+    opacity: .6;
+    
 }
 
 @media screen and (max-width: 549px) {
     .profile__changer{
+        background-size: 7.5px;
         min-width: 18px;
         min-height: 18px;
         margin-top: 3px;

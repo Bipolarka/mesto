@@ -24,16 +24,12 @@
                 <div class="profile__info">
                     <div class="profile__top-row">
                         <h1 class="profile__name">Жак-Ив Кусто</h1> 
-                        <button class="profile__changer" type="button">
-                            <img class="profile__pen" src='./images/svg_icons/pen1.svg' alt="Изменить профиль">
-                        </button>
+                        <button class="profile__changer" type="button"></button>
                     </div>
                     <p class="profile__status">Исследователь океана</p>
                 </div>
                 
-                <button class="profile__add" type="button">
-                    <img class="profile__plus" alt="Добавить новую публикацию" src="./images/svg_icons/plus1.svg">
-                </button>
+                <button class="profile__add" type="button"></button>
             </section>
 
             <section class="places">
@@ -42,7 +38,7 @@
                         <img class="place__photo" src="./images/karachaevsk.jpg" alt="Фотография Карачаевска">
                         <div class="place__info">
                             <h2 class="place__name">Карачаевск</h2>
-                            <button class="place__like place__like_active" type="button"></button>
+                            <button class="place__like" type="button"></button>
                         </div>
                     </li>
                     <li class="place">
@@ -77,7 +73,7 @@
                         <img class="place__photo" src="./images/elbrus.png" alt="Фотография Эльбруса">
                         <div class="place__info">
                             <h2 class="place__name">Гора Эльбрус в КБР</h2>
-                            <button class="place__like place__like_active" type="button"></button>
+                            <button class="place__like" type="button"></button>
                         </div>
                     </li>
                 </ul>
@@ -93,8 +89,8 @@
                 <button class="popup__close" type="button"></button>
                 <h2 class="popup__header">Редактировать профиль</h2>
                 <form class="popup__inputs" name="aboutUser" method="post">
-                    <input type="text" name="aboutUser" class=" popup__input popup__input_type_name" placeholder="Иван Иванович" required>
-                    <input type="text" name="aboutUser" class="popup__input popup__input_type_info" placeholder="Покоритель пустоши" required>
+                    <input type="text" name="nameUser" class=" popup__input popup__input_type_name" placeholder="Имя пользователя" required>
+                    <input type="text" name="statusUser" class="popup__input popup__input_type_info" placeholder="Статус пользователя" required>
                     <button class="popup__button" type="submit">Сохранить</button>
                 </form>
             </div>
