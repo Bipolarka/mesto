@@ -1,9 +1,9 @@
-.place {
-  padding: 0;
-  width: 282px;
-  /* height: 361px; */
-  background-color: white;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+.place{
+    padding: 0;
+    width: 282px;
+    /* height: 361px; */
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }

@@ -1,19 +1,19 @@
-.profile__top-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /* overflow: hidden; */
-  /* max-width: 100%;
+.profile__top-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* overflow: hidden; */
+    /* max-width: 100%;
     width: 100%; */
-  /* text-overflow: ellipsis;
+    /* text-overflow: ellipsis;
     box-sizing: border-box;
     white-space: nowrap; */
-  box-sizing: border-box;
-  max-width: 336px;
+    box-sizing: border-box;
+    max-width: 336px;
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 549px){
   .profile__top-row {
-    max-width: 282px;
+      max-width: 282px;
   }
 }
