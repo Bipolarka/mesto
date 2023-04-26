@@ -5,15 +5,8 @@
   aspect-ratio: 1/1;
 }
 
-@media screen and (max-width: 756px) {
-  .profile__avatar {
-    margin-right: 18px;
-  }
-}
-
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 760px) {
   .profile__avatar {
     margin-bottom: 26px;
-    margin-right: 0;
   }
 }

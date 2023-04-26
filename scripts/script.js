@@ -20,13 +20,8 @@ function closePopup() {
   inputInfo.value = '';
 }
 
-profileOpen.addEventListener('click', function () {
-  openPopup();
-});
-
-popupClose.addEventListener('click', function () {
-  closePopup();
-});
+profileOpen.addEventListener('click', openPopup);
+popupClose.addEventListener('click', closePopup);
 
 function handleFormSubmit(event) {
   event.preventDefault();

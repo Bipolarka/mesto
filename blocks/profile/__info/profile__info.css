@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 760px) {
   .profile__info {
     align-content: center;
     align-items: center;
