@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru" class="html">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Жак-Ив Кусто">
+        <link rel="shortcut icon"
+            href="./images/avatar.jpg"
+            type="image/x-icon">
+        <link rel="stylesheet" href="./pages/index.css" type="text/css">
+        <title>Путешествия в Mesto...</title>
+    </head>
+
+    <body class="page">
+
+        <header class="header">
+            <a class="logo" href="#"><img class="logo__image" src="./images/svg_icons/logo.svg" alt="Фотография логотипа"></a>
+        </header>
+
+        <main class="content">
+            <section class="profile">
+                <img class="profile__avatar" src="./images/avatar.jpg" alt="Фотография пользователя">
+                <div class="profile__info">
+                    <div class="profile__top-row">
+                        <h1 class="profile__name">Жак-Ив Кусто</h1> 
+                        <button class="profile__changer" type="button">
+                            <img class="profile__pen" src='./images/svg_icons/pen1.svg' alt="Изменить профиль">
+                        </button>
+                    </div>
+                    <p class="profile__status">Исследователь океана</p>
+                </div>
+                
+                <button class="profile__add" type="button">
+                    <img class="profile__plus" alt="Добавить новую публикацию" src="./images/svg_icons/plus1.svg">
+                </button>
+            </section>
+
+            <section class="places">
+                <ul class="places__list">
+                    <template id="template-place">
+                        <li class="place">
+                            <img class="place__photo" src="./images/karachaevsk.jpg" alt="Фотография Карачаевска">
+                            <button class="place__delete" type="button"></button>
+                            <div class="place__info">
+                                <h2 class="place__name">Карачаевск</h2>
+                                <button class="place__like" type="button"></button>
+                            </div>
+                        </li>
+                    </template>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__copyright">© 2022 Mesto Russia</p>
+        </footer>
+
+        <div class="popup popup_type_change-profile">
+            <div class="popup__container">
+                <button class="popup__close" type="button"></button>
+                <h2 class="popup__header">Редактировать профиль</h2>
+                <form class="popup__inputs" name="profile-form" method="post">
+                    <input type="text" name="aboutUser" class=" popup__input popup__input_type_name" placeholder="Иван Иванович" required>
+                    <input type="text" name="aboutUser" class="popup__input popup__input_type_info" placeholder="Покоритель пустоши" required>
+                    <button class="popup__button" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="popup popup_type_add-publication">
+            <div class="popup__container">
+                <button class="popup__close" type="button"></button>
+                <h2 class="popup__header">Новое место</h2>
+                <form class="popup__inputs" name="card-form" method="post">
+                    <input type="text" name="aboutPlace" class=" popup__input popup__input_type_place" placeholder="Название" required>
+                    <input type="text" name="aboutPlace" class="popup__input popup__input_type_photo" placeholder="Ссылка на картинку" required>
+                    <button class="popup__button" type="submit">Создать</button>
+                </form>
+            </div>
+        </div> 
+
+        <div class="popup popup_type_place">
+            <div class="popup__container popup__container_place">
+                <img class="popup__photo" alt="Фото от автора" src="./images/dombai.png">
+                <h2 class="popup__description"></h2>
+                <button class="popup__close" type="button"></button>
+            </div>
+        </div> 
+
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
