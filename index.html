@@ -9,6 +9,7 @@
             href="./images/avatar.jpg"
             type="image/x-icon">
         <link rel="stylesheet" href="./pages/index.css" type="text/css">
+        <script defer src="./scripts/script.js"></script>
         <title>Путешествия в Mesto...</title>
     </head>
 
@@ -61,8 +62,8 @@
                 <button class="popup__close" type="button"></button>
                 <h2 class="popup__header">Редактировать профиль</h2>
                 <form class="popup__inputs" name="profile-form" method="post">
-                    <input type="text" name="aboutUser" class=" popup__input popup__input_type_name" placeholder="Иван Иванович" required>
-                    <input type="text" name="aboutUser" class="popup__input popup__input_type_info" placeholder="Покоритель пустоши" required>
+                    <input type="text" name="aboutUser" class=" popup__input popup__input_type_name" placeholder="Имя" required>
+                    <input type="text" name="aboutUser" class="popup__input popup__input_type_info" placeholder="О себе" required>
                     <button class="popup__button" type="submit">Сохранить</button>
                 </form>
             </div>
@@ -74,7 +75,7 @@
                 <h2 class="popup__header">Новое место</h2>
                 <form class="popup__inputs" name="card-form" method="post">
                     <input type="text" name="aboutPlace" class=" popup__input popup__input_type_place" placeholder="Название" required>
-                    <input type="text" name="aboutPlace" class="popup__input popup__input_type_photo" placeholder="Ссылка на картинку" required>
+                    <input type="url" name="aboutPlace" class="popup__input popup__input_type_photo" placeholder="Ссылка на картинку" required>
                     <button class="popup__button" type="submit">Создать</button>
                 </form>
             </div>
@@ -88,6 +89,5 @@
             </div>
         </div> 
 
-        <script src="./scripts/script.js"></script>
     </body>
 </html>
